@@ -12,6 +12,7 @@ script:
 - ng lint
 - npm run test-headless
 - ng build --prod --base-href https://hvsharma63.github.io/WebAlbum/
+- ng deploy --prod --base-href https://hvsharma63.github.io/WebAlbum/
 
 deploy:
   provider: pages
